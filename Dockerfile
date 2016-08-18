@@ -1,4 +1,4 @@
-FROM node:4.4.7
+FROM node:4.4.7-slim
 MAINTAINER    Rohan Ray (https://github.com/rohanray)
 
 COPY ./tar/src.tar.gz /tar/src.tar.gz
